@@ -51,7 +51,7 @@ unclassified:
           scm:
             github:
               credentialsId: "cbdays-github-username-pat"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "Satish-RLorg"
               repository: "pipeline-library"
   hibernationConfiguration:
     activities:
@@ -70,10 +70,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              secret: "{AQAAABAAAAAwaS0GfBOoEtH8m9UCyUwus29iD+PKd5O1EuNX6YHc76RzSUNQJWQM0U9lkBOwU3YXjwk4HiL1c5t9A7DGMFKr6w==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "REPLACE_WITH_YOUR_GITHUB_USERNAME"
-              password: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              username: "SatishKRL"
+              password: "{AQAAABAAAAAwaS0GfBOoEtH8m9UCyUwus29iD+PKd5O1EuNX6YHc76RzSUNQJWQM0U9lkBOwU3YXjwk4HiL1c5t9A7DGMFKr6w==}"
